@@ -81,6 +81,7 @@ section {
     max-width:100%;;
     left: 50%;
     transform:translate(-50%);
+    cursor: pointer;
 }
 
 p.text {
@@ -113,6 +114,7 @@ a.more::after {
     max-width: 100%;
     left: 50%;
     transform: translate(-50%);
+    cursor: pointer;
 }
 .why_info {
     color: #fff;    
@@ -137,14 +139,17 @@ a.more::after {
 .section3_news img {
     padding-bottom: 7%;
     height: 15rem;
+    cursor: pointer;
 }
 
 .news_info span {
     font-size: 12px;
     color: #000;
+    cursor: pointer;
 }
 .news_info p {
     color: #000;
+    cursor: pointer;
 }
 
 
@@ -195,10 +200,14 @@ a.more::after {
 }
 .section4_img img {
     transition: all 0.5s;
+    cursor: pointer;
 }
 .section4_img img:hover {
     transform: scale(1.15);
 }
+
+
+
 
 .section5 {
     padding-top: 200px;
@@ -210,25 +219,30 @@ a.more::after {
 
 .section5_sns img {
     height: 17rem;
+    cursor: pointer;
 }
 
 .section5_sns h2 {
     font-size: 15px;
+    cursor: pointer;
 }
 
 .sns_info h3 {
     font-size: 20px;
+    cursor: pointer;
 }
 
 .sns_info p {
     font-size: 14px;
     color: #ccc;
+    cursor: pointer;
 }
 
 /* footer*/
 .customer_wrap li {
     display: inline-block;
     color: #ccc;
+    cursor: pointer;
 }
 
 .number_wrap li {
