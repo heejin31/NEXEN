@@ -126,6 +126,7 @@ a.more::after {
 }
 .why_info p {
     font-size: 14px;
+    cursor: pointer;
 }
 .why_info p:hover {
     color:#801494 ;
