@@ -16,7 +16,7 @@ header {
 
 .util a {
     color: #ccc;
-    font-size: 1vw;
+    font-size: 0.8vw;
 }
 .nav-item {
     margin-right: 30px;
@@ -27,7 +27,7 @@ header {
 
 .nav-item > a {
     color: #ccc;   
-    font-size: 1.1vw;
+    font-size: 1vw;
 }
 .nav-link:focus, .nav-link:hover {
     color: rgb(87, 85, 85);
@@ -124,14 +124,18 @@ a.more::after {
     transform: translateY(-50%);
     text-align: center;
 }
-
 .why_info p {
     font-size: 14px;
+}
+.why_info p:hover {
+    color:#801494 ;
 }
 .why_info span {
     font-size: 20px;
     font-weight: bold;
 }
+
+
 
 .section3 {
     padding-bottom: 200px;
@@ -249,13 +253,10 @@ a.more::after {
     color: #ccc;
 }
 
-
 .footer_logo img {
     width: 200px;
     height: 47px;
 }
-
-
 
 .copyright p {
     color: #ccc;

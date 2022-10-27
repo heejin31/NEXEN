@@ -2,10 +2,10 @@
 
 @media (max-width: 1426px) {
     .util a {       
-        font-size: 0.8vw;
+        font-size: 0.7vw;
     }
     .nav-item > a {         
-        font-size: 1vw;
+        font-size: 0.9vw;
     } 
 } 
 @media (max-width: 1228px) {
