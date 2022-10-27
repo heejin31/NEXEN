@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
+@media (max-width: 1426px) {
+    .util a {       
+        font-size: 0.8vw;
+    }
+    .nav-item > a {         
+        font-size: 1vw;
+    } 
+} 
+@media (max-width: 1228px) {
+    .util img {
+        display: none;
+    }
+}
+
+
+
+
+
 @media (max-width: 960px) {
     .section4_title {        
         font-size: 3.7vw;

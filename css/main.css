@@ -15,7 +15,8 @@ header {
 }
 
 .util a {
-    color: #fff;
+    color: #ccc;
+    font-size: 1vw;
 }
 .nav-item {
     margin-right: 30px;
@@ -25,31 +26,13 @@ header {
 }
 
 .nav-item > a {
-    color: #fff;   
+    color: #ccc;   
+    font-size: 1.1vw;
 }
 .nav-link:focus, .nav-link:hover {
     color: rgb(87, 85, 85);
 }
 
-.m_info {
-    padding: 40px 0 30px;
-    font-size: 20px;
-}
-
-.m_info span {    
-    font-weight: 800;
-    font-size: 15px;
-}
-
-
-.main_text h2 {    
-    font-weight: 700;    
-    color: #fff;
-}
-
-.main_text span {
-    font-size: 13px;
-}
 
 .navbar-toggler {
     background-color: #fff;
@@ -84,7 +67,6 @@ section {
 }
 .section_title {
     color: #fff; 
-    vertical-align: center; 
 }
 .section_title h2 {
     font-size: 40px;
