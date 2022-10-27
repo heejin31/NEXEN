@@ -91,7 +91,7 @@ p.text {
 a.more {
     display: inline-block;
     border: 1px solid #fff;
-    padding: 5px;
+    padding: 5px 10px;
 }
 a.more::after {
     display: inline-block;
