@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@media (max-width: 960px) {
+    .section4_title {        
+        font-size: 3.7vw;
+    }
+    .section4 .service {
+        font-size: 3vw;
+    }
+
+
+}

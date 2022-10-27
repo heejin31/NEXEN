@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+img {    /*이미지를 둘러싼부모의 크기지정후 그 크기에 100% 맞춤- 이미지의 원래 사이즈보다 커지진않음(부모요소에는 맞추지만 내 원래크기까지가 최대치*/
+    max-width: 100%;
+}
+ol, ul {
+    padding-left: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+body {
+    font-family: 'Noto Sans KR','맑은 고딕', sans-serif;
+}
+.row {
+    margin-right: 0;   /*부트스트랩 row사용시 기본적으로 생기는 여백을 없애줌*/
+    margin-left: 0;
+}
+.row > * {
+    padding-right: 0;   /*부트스트랩 row사용시 자식요소에 기본적으로 생기는 여백을 없애줌*/
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+li > a {
+    color: #fff;
+}
